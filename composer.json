@@ -1,6 +1,6 @@
 {
-    "name": "league/flysystem-azure",
-    "description": "Flysystem adapter for Windows Azure",
+    "name": "shadywallas/laravel-azure-storage",
+    "description": "Flysystem adapter for Windows Azure working with laravel Url",
     "license": "MIT",
     "authors": [
         {
