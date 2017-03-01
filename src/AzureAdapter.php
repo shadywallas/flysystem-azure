@@ -410,7 +410,7 @@ class AzureAdapter extends AbstractAdapter
 
         $path = $this->applyPathPrefix($path);
 
-        $path = $this->client->getUri().$this->container.'/'.$path;
+        $path = $this->client->getUri().ltrim($this->container,'/').'/'.$path;
 
         return $path;
 
